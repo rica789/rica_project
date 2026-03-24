@@ -46,7 +46,7 @@ const Portfolio = () => {
             <span className="pill">About Me</span>
             <h1>Hello! I'm Rica, an IT student and dreaming graduate.</h1>
             <p>
-             "I believe that great design is invisible—it just works. As an aspiring UI/UX Designer, I am driven by a deep curiosity about how people interact with technology. My goal isn't just to make things look beautiful, but to advocate for the user at every turn, transforming complex frustrations into seamless, intuitive digital journeys."
+             "I believe that great design is invisible it just works. As an aspiring UI/UX Designer, I am driven by a deep curiosity about how people interact with technology. My goal isn't just to make things look beautiful, but to advocate for the user at every turn, transforming complex frustrations into seamless, intuitive digital journeys."
             </p>
 
             
@@ -79,15 +79,7 @@ const Portfolio = () => {
                 </div>
               </article>
 
-              <article className="card">
-                <h3>System Visual Design</h3>
-                <p>I create clean, intuitive interfaces where clarity is the priority.</p>
-                <div className="tag-row">
-                  {['Unity UI', 'UI Design', 'UX Design', 'AutoDesk Sketch', 'Figma'].map(design => (
-                    <span key={design} className="tag">{design}</span>
-                  ))}
-                </div>
-              </article>
+              
             </div>
           </div>
         </section>
@@ -104,12 +96,7 @@ const Portfolio = () => {
             </div>
 
             <div className="cards">
-              <article class="card">
-          <h3>Capstone Project</h3>
-          <p>On-going academic project.</p>
-          <p><strong>Role:</strong>Lead Developer</p>
-          <p><strong>Technologies:</strong> Unity, C#, Blender, Autodesk Sketch</p>
-        </article>
+              
 
         <article class="card">
           <h3>3rd Year-1st Semester Research Project (MindForge App)</h3>
